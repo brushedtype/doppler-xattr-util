@@ -14,6 +14,9 @@ doppler-xattr-util clear <path to file>
 
 # test for whether the file is marked as changed or not
 doppler-xattr-util is-changed <path to file>
+
+# send a test apple event to an application
+doppler-xattr-util send-event <path to application>
 ```
 
 Building the CLI:

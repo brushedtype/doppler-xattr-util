@@ -13,6 +13,8 @@ func printHelp() {
       doppler-xattr-util clear <path to file>
 
       doppler-xattr-util is-changed <path to file>
+
+      doppler-xattr-util send-event <path to application>
     """
     print(helpText)
 }
